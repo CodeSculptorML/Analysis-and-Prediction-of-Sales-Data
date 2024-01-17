@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Sales Analysis</title>
+  <!-- Add any additional styles or scripts as needed -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 50px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 5px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    p {
+      color: #666;
+      margin: 20px 0;
+    }
+
+    /* Add any additional styles as needed */
+  </style>
+</head>
+<body>
+  <h1 align="center">Data Analysis</h1>
+  <img src="{{ url_for('static', filename='images/Product_Demand.png') }}" alt="Your Image">
+  <p>Product Demand</p>
+  <img src="{{ url_for('static', filename='images/item_fat_content.png') }}" alt="Your Image">
+  <p>Item Fat Content</p>
+  <img src="{{ url_for('static', filename='images/Item_MRP.png') }}" alt="Your Image">
+  <p>Item MRP</p>
+  <img src="{{ url_for('static', filename='images/Item_Visibility.png') }}" alt="Your Image">
+  <p>Item Visibility</p>
+  <img src="{{ url_for('static', filename='images/Item_Weight.png') }}" alt="Your Image">
+  <p>Item Weight</p>
+  <img src="{{ url_for('static', filename='images/Outlet estabishment year.png') }}" alt="Your Image">
+  <p>Outlet Establishment Year</p>
+
+</body>
+</html>
